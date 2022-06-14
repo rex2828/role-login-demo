@@ -1,0 +1,33 @@
+.navbarContainer {
+    background: #01FFEB;
+    background: -webkit-linear-gradient(left, #01FFEB, #010101);
+    background: -moz-linear-gradient(left, #01FFEB, #010101);
+    background: linear-gradient(to right, #01FFEB, #010101);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.loginLink {
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        font-size: 20px;
+    }
+}
